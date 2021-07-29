@@ -1,0 +1,31 @@
+# Vscode files
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+.history/
+
+# Eclipse files
+.classpath
+.project
+.settings/**
+
+# IntelliJ
+.idea/
+*.iws
+out/
+.idea_modules/
+
+# Vim-related files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+
+# CMake
+cmake-build-*/
+
+.DS_Store
